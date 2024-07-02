@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription et Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Créer un compte</h2>
+            <form id="registerForm">
+                <label for="registerEmail">Email :</label>
+                <input type="email" id="registerEmail" required>
+                <label for="registerPassword">Mot de passe :</label>
+                <input type="password" id="registerPassword" required>
+                <button type="submit">S'inscrire</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h2>Se connecter</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email :</label>
+                <input type="email" id="loginEmail" required>
+                <label for="loginPassword">Mot de passe :</label>
+                <input type="password" id="loginPassword" required>
+                <button type="submit">Se connecter</button>
+            </form>
+        </div>
+        <div id="downloadSection" class="hidden">
+            <h2>Bienvenue !</h2>
+            <p>Vous pouvez maintenant télécharger l'application :</p>
+            <a href="votre_application.zip" download>Télécharger l'application</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
